@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styles */
+.container {
+    padding: 20px;
+}
+
+/* Header Styles */
+h1 {
+    color: #343a40;
+    font-size: 2.5rem;
+}
+
+/* Transcript Card Styles */
+.card {
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 0.25rem 0.25rem 0 0;
+}
+
+.card-header h3 {
+    margin: 0;
+}
+
+.card-header p {
+    margin: 5px 0 0;
+    font-size: 1rem;
+}
+
+/* Table Styles */
+.table {
+    margin-bottom: 0;
+}
+
+.table thead th {
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody tr {
+    transition: background-color 0.15s ease-in-out;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Back to Dashboard Button */
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 0.25rem;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .card-header h3, .card-header p {
+        font-size: 1.25rem;
+    }
+
+    .table thead th, .table tbody td {
+        font-size: 0.875rem;
+    }
+
+    .btn-secondary {
+        font-size: 0.875rem;
+    }
+}
+
